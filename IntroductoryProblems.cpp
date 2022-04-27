@@ -1,4 +1,5 @@
-Weird Algorithm:
+									//1.Weird Algorithm:
+
 /*    Rabbi Zidni Ilma    */
  
 #pragma GCC optimize("Ofast")
