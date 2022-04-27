@@ -24,3 +24,25 @@ int main()
 	cout << nl;
 	return 0;
 }
+						//2.Missing Number
+int main()
+{
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	ll n;
+	cin >> n;
+	ll a[n - 1];
+	arrscan(a, n - 1)
+	ll xor1 = 0;
+	ll xor2 = 0;
+	for (ll i = 1; i <= n; ++i)
+	{
+		xor1 ^= i;
+	}
+	f1(i, 0, n - 1)
+	{
+		xor2 ^= a[i];
+	}
+	cout << ( xor1 ^ xor2) << nl;
+	return 0;
+}
